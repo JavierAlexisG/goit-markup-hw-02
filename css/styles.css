@@ -1,0 +1,62 @@
+:root {
+    --primary-texte-color: #212121;
+    --secundary-text-color: #757575;
+    --tertiary-text-color: rgba (255,255,255,0.6)
+    --accent-color: #2196f3;
+    --primary-background-color: #ffffff;
+    --secondary-background-color: #2f303a;
+    --tertiary-background-color: #f5f4fa;
+}
+
+body {
+    font-family: 'Roboto'sans-serif;
+    color: var(--primary-text-color);
+    background-color: var(--primary-background-color);
+    font-size: 14px;
+}
+
+.list{
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.logo-blue {
+    font-family: "raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--accent-color);
+    line-height: 1.19;
+    letter-spacing: 0.03;
+} 
+
+.header-container {
+    border-bottom: 1px solid #ececec;
+}
+
+.header-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-texte-color);
+}
+
+.header-logo:focus,
+.header-link:hover,
+.header-link:focus,
+.tel:hover,
+.tel:focus,
+.email:hover,
+.tel:focus,
+.footer-logo:focus,
+.addres-contact:hover,
+.addres-contact:focus, 
+    color:var(--accent-color)
+
+.current {
+    color:var(--accent-color);
+}
+
+
