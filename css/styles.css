@@ -15,7 +15,7 @@ body {
     font-size: 14px;
 }
 
-.list{
+.list {   
     list-style: none;
 }
 
@@ -24,14 +24,21 @@ body {
 }
 
 .logo-blue {
-    font-family: "raleway", sans-serif;
+    font-family: 'Roboto' sans-serif;
     font-size: 26px;
     font-weight: 700;
-    color: var(--accent-color);
-    line-height: 1.19;
+    line-height: 1.18px;
     letter-spacing: 0.03;
-} 
+    color:var(--accent-color);
+}
 
+.link-blue{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.18;
+    color:var(--accent-color);
+    }
+    
 .header-container {
     border-bottom: 1px solid #ececec;
 }
@@ -43,20 +50,11 @@ body {
     color: var(--primary-texte-color);
 }
 
-.header-logo:focus,
-.header-link:hover,
-.header-link:focus,
-.tel:hover,
-.tel:focus,
-.email:hover,
-.tel:focus,
-.footer-logo:focus,
-.addres-contact:hover,
-.addres-contact:focus, 
-    color:var(--accent-color)
-
-.current {
-    color:var(--accent-color);
+.section-button:hover {
+    background-color: var(--secondary-background-color);
 }
 
+.background-footer {
+    background-color: var(--secondary-background-color);
+}
 
